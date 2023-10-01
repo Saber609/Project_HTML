@@ -1,0 +1,20 @@
+.carousel-item {
+    height: 450px; /* Adjust this value to your preferred height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* Ensure images are centered vertically and horizontally */
+.carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.card-img-top {
+    height: 400px; /* Adjust this value to your preferred height */
+    width: 300px;
+    object-fit: cover;
+}
